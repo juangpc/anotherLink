@@ -1,4 +1,5 @@
 
+https://opensource.com/article/19/4/interprocess-communication-linux-storage
 
 HPI - make it stable
     - try to make it all but visualization c++

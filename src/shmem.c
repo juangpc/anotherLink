@@ -1,8 +1,8 @@
 #include "shmem.h"
 
 const char* shmem_filename = "bla.txt";
-int shmem_int = 0;
 caddr_t shmem_memptr = NULL;
+int shmem_fd = NULL;
 
 void report(const char* msg)
 {
@@ -31,8 +31,15 @@ caddr_t allocate_memory()
 
 void deallocate_memory()
 {
-    munmap(mem)
+    munmap(mem, shm_size);
 }
+
+void close_file()
+{
+    close(shmem_fd);
+}
+
+
 // set_time_between_reads();
 
 
