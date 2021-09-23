@@ -1,0 +1,27 @@
+
+
+HPI - make it stable
+    - try to make it all but visualization c++
+    - Qt only for visualization.
+    - dipole fitting c++.
+    *==> adventure into opengl and vulkan
+    *==> adventure into linux(Xlib)/iOS(Cocoa)/Windows(Direct3d)
+
+VIRTUAL MEG - *just* in case there is some trouble.
+            - understand and improve neuromag2ft
+                - replicate the source of time-series **as closely as p**
+                - make it automatic and **reloadable** (if measurement restarts)
+                --> nice if it is stable enought to run by default 24/7
+                - avoid dependencies.
+                    - c++ only fiff library (well abstracted)
+
+TIME-FREQUENCY
+
+MULTI-DIPOLE FITTING
+
+SPARSE MIXED NORM
+
+PDF 
+
+CMAKE
+
