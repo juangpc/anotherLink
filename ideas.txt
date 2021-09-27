@@ -1,5 +1,8 @@
 
 https://opensource.com/article/19/4/interprocess-communication-linux-storage
+https://www.tutorialspoint.com/inter_process_communication/inter_process_communication_shared_memory.htm
+
+
 
 HPI - make it stable
     - try to make it all but visualization c++
